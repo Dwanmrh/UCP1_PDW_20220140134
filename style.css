@@ -1,0 +1,107 @@
+/* Navbar */
+.navbar {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Navbar Brand */
+.navbar-brand {
+  font-size: 1.2rem;
+}
+
+/* Navbar Links */
+.navbar-nav .nav-link {
+  font-size: 1rem;
+  margin-left: 1.5rem;
+  text-transform: uppercase;
+}
+
+/* Carousel */
+.carousel-item img {
+  width: 100%;
+  height: auto;
+}
+
+/* Accordion */
+.accordion-button {
+  color: #000;
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+}
+
+/* Cards */
+.card {
+  border: none;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Card Title */
+.card-title {
+  font-size: 1.2rem;
+}
+
+/* Card Price */
+.card-text {
+  font-size: 1rem;
+  color: #6c757d;
+}
+
+/* Card Button */
+.card-btn {
+  font-size: 1rem;
+  border-radius: 25px;
+  padding: 0.5rem 2rem;
+}
+
+/* Our Products Section */
+#our-products {
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+
+/* Current Time */
+#current-time {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
+/* Footer Styling */
+footer {
+  background-color: #343a40;
+  color: #fff;
+  padding: 60px 0;
+}
+
+footer h5 {
+  color: #fff;
+}
+
+footer p {
+  color: #ccc;
+}
+
+footer a {
+  color: #fff;
+}
+
+footer a:hover {
+  color: #bbb;
+}
+
+footer ul.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+
+footer ul.list-unstyled li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+footer ul.list-unstyled li a {
+  color: #fff;
+  font-size: 20px;
+}
